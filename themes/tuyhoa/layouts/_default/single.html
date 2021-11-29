@@ -3,5 +3,22 @@
   <h1>{{ .Title }}</h1>
   <br />
   {{ .Content }}
+  <br />
+  <!--https://getbootstrap.com/docs/5.1/layout/columns/-->
+  <div class="row align-items-end">
+    <div class="col">
+      {{ with .PrevInSection }}
+      <p>Previous post</p>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
+    <div class="col"></div>
+    <div class="col">
+      {{ with .NextInSection }}
+      <p>Next post</p>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </div>
 </div>
 {{ end }}
