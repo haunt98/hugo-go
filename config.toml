@@ -1,4 +1,4 @@
-baseURL = "https://haunt98.github.io/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Yoshie's blog"
 theme = "tuyhoa"
