@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Yoshie's blog"
 theme = "tuyhoa"
 
+# https://gohugo.io/content-management/urls/#canonicalization
+canonifyURLs = true
+
 [params]
 description = "TODO: My site description"
 
