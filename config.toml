@@ -6,19 +6,14 @@ theme = "tuyhoa"
 [params]
 description = "TODO: My site description"
 
-[menu]
 [[menu.main]]
-name = "Home"
-pre = "home"
+name = "About"
 url = "/"
-weight = 1
+
 [[menu.main]]
 name = "Posts"
-pre = "pen-tool"
 url = "/posts/"
-weight = 2
+
 [[menu.main]]
 name = "Tags"
-pre = "tag"
 url = "/tags/"
-weight = 3
