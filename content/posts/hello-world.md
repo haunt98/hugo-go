@@ -15,4 +15,6 @@ Do some commands:
 neofetch
 
 git log
+git config user.name Joker
+git config --global user.email joker@batman.com
 ```
