@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Recursive";
-  src: url("/fonts/Recursive_VF_1.084.woff2") format("woff2-variations");
-  font-weight: 300 1000;
-}
-
 body {
   font-family: "Recursive", sans-serif;
   font-variation-settings: "MONO" 0, "CASL" 1;

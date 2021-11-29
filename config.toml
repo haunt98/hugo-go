@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Yoshie's blog"
 theme = "tuyhoa"
 
+[params]
+description = "TODO: My site description"
+
 [menu]
 [[menu.main]]
 name = "Home"
